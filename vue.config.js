@@ -12,5 +12,5 @@ module.exports = defineConfig({
       }
     }
   },
-  publicPath: process.env.NODE_ENV === 'development' ? '/' : '../static/'
+  publicPath: process.env.NODE_ENV === 'development' ? '/' : '/dist/'
 })
